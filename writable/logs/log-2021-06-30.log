@@ -1,0 +1,55 @@
+CRITICAL - 2021-06-30 02:33:25 --> Undefined index: nip
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewBiodata.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewBiodata', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerUmum.php(57): view('ViewBiodata', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerUmum->index()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerUmum))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-30 02:33:41 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewBiodata.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewBiodata', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerUmum.php(57): view('ViewBiodata', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerUmum->index()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerUmum))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-30 03:22:13 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewBiodata.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 235, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewBiodata', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerUmum.php(57): view('ViewBiodata', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerUmum->index()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerUmum))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-30 23:08:06 --> Undefined index: target_1
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahKTJ.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 73, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahKTJ', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerKTJ.php(238): view('ViewTambahKTJ', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerKTJ->edit('d0UxbHNTaUJqL2J...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKTJ))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-30 23:08:59 --> Undefined variable: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahKTJ.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 63, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahKTJ', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerKTJ.php(238): view('ViewTambahKTJ', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerKTJ->edit('d0UxbHNTaUJqL2J...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKTJ))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,29 @@
+ERROR - 2021-08-25 23:39:39 --> mysqli_sql_exception: Unknown column 'approved' in 'field list' in D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `kgb_riw...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kgb_riw...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kgb_riw...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `kgb_riw...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(353): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(513): CodeIgniter\Model->update('1', Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->ApproveUsulanKGB('aFBPdVFsanY4eWF...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-25 23:39:39 --> Unknown column 'approved' in 'field list'
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `kgb_riw...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kgb_riw...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kgb_riw...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `kgb_riw...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(353): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(513): CodeIgniter\Model->update('1', Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->ApproveUsulanKGB('aFBPdVFsanY4eWF...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}

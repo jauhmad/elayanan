@@ -1,0 +1,31 @@
+CRITICAL - 2021-06-08 03:07:52 --> syntax error, unexpected ')'
+#0 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\priva...')
+#1 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-08 03:07:52 --> syntax error, unexpected ')'
+#0 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\priva...')
+#1 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-08 03:08:16 --> Undefined index: id_sat_output
+#0 D:\xampp7\private_html\skpci\app\Views\admin_target.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 135, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_target', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(184): view('admin_target', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->lihatTargetSKP('WUIxQ3prSVhBYS9...')
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

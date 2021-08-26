@@ -1,0 +1,126 @@
+CRITICAL - 2021-08-23 20:52:26 --> Invalid file: ViewFormPengajuanUsulanKGB.php
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewFormPengaju...')
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormPengaju...', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(559): view('ViewFormPengaju...', Array)
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-08-23 21:42:46 --> mysqli_sql_exception: Unknown column 'usulan_tmt_baru' in 'field list' in D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `kg...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kg...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kg...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kg...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(499): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-23 21:42:46 --> Unknown column 'usulan_tmt_baru' in 'field list'
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `kg...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kg...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kg...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kg...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(499): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-23 21:45:17 --> Undefined variable: usulan_kgb_berikut
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormPengajuanUsulanKGB.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormPengaju...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(564): view('ViewFormPengaju...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-23 21:46:13 --> mysqli_sql_exception: Column 'usulan_no_surat_sbl' cannot be null in D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `kg...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kg...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kg...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kg...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(499): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-23 21:46:13 --> Column 'usulan_no_surat_sbl' cannot be null
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `kg...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kg...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kg...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kg...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(499): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-08-23 21:48:07 --> mysqli_sql_exception: Column 'usulan_no_surat_sbl' cannot be null in D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `kg...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kg...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kg...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kg...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(499): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-23 21:48:07 --> Column 'usulan_no_surat_sbl' cannot be null
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `kg...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kg...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kg...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kg...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\htdocs\elayanan\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(499): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->PengajuanUsulanKGB('bnAyYkFGUi90alR...')
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#10 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-23 22:09:42 --> Invalid argument supplied for foreach()
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp7\\htdoc...', 161, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->LihatRiwayatKGB('bnAyYkFGUi90alR...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-23 22:10:54 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->LihatRiwayatKGB('bnAyYkFGUi90alR...')
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-23 22:23:36 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerLogin->prosesToken('197711212006041...')
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLogin))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}

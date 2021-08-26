@@ -1,0 +1,49 @@
+CRITICAL - 2021-07-09 01:33:20 --> Object of class App\Models\ModelRiwayat could not be converted to string
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPrestasi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPrestasi->lihat('WGtqKzFMRlg2Yll...', 'page')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestasi))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-09 01:41:06 --> Invalid file: ViewTambahPrestasi.php
+#0 D:\xampp7\htdocs\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewTambahPrest...')
+#1 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPrest...', Array, true)
+#2 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPrestasi.php(356): view('ViewTambahPrest...', Array)
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPrestasi->tambah('WGtqKzFMRlg2Yll...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestasi))
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 01:50:34 --> Undefined variable: nilai_ide_baru
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahPrestasi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPrest...', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPrestasi.php(314): view('ViewTambahPrest...', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPrestasi->tambah('WGtqKzFMRlg2Yll...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestasi))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-09 01:51:46 --> Undefined variable: nilai_ide_baru
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahPrestasi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPrest...', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPrestasi.php(315): view('ViewTambahPrest...', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPrestasi->tambah('WGtqKzFMRlg2Yll...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestasi))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-09 01:51:48 --> Undefined variable: nilai_ide_baru
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahPrestasi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPrest...', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPrestasi.php(315): view('ViewTambahPrest...', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPrestasi->tambah('WGtqKzFMRlg2Yll...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestasi))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

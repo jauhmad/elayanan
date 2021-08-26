@@ -1,0 +1,67 @@
+CRITICAL - 2021-05-23 20:35:39 --> Undefined variable: no
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 128, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 21:00:17 --> Call to undefined function App\Controllers\encrypt()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-23 22:02:27 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(242): redirect('/target/1977112...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 22:08:01 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(242): redirect('/target/1977112...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 22:22:03 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(242): redirect('/target/1977112...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 22:22:50 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(242): redirect('/target/1977112...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 22:24:12 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(242): redirect('/target/11/liha...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('11', '5555')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 22:25:23 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(242): redirect('/target/11/liha...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('11', '5555')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}

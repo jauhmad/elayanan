@@ -1,0 +1,69 @@
+CRITICAL - 2021-04-22 21:43:28 --> Undefined variable: data
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 41, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-22 21:46:12 --> Invalid file: admin_show_biodata.php
+#0 D:\xampp7\private_html\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_show_biod...')
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(41): view('admin_show_biod...', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-22 21:46:42 --> Undefined variable: newses
+#0 D:\xampp7\private_html\skpci\app\Views\admin_show_biodata.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 30, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(41): view('admin_show_biod...', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-22 21:58:58 --> Undefined index: nip
+#0 D:\xampp7\private_html\skpci\app\Views\admin_show_biodata.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 23, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(44): view('admin_show_biod...', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-22 22:01:44 --> syntax error, unexpected '?>'
+#0 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(44): view('admin_show_biod...', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-22 22:38:54 --> Invalid argument supplied for foreach()
+#0 D:\xampp7\private_html\skpci\app\Views\admin_show_biodata.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp7\\priva...', 39, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(26): view('admin_show_biod...', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-22 22:44:50 --> Undefined variable: b2a
+#0 D:\xampp7\private_html\skpci\app\Views\admin_show_biodata.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 72, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(33): view('admin_show_biod...', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

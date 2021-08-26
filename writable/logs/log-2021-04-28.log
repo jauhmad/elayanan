@@ -1,0 +1,80 @@
+CRITICAL - 2021-04-28 01:18:12 --> Undefined variable: data
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 114, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->targetSKP()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-28 01:25:59 --> Undefined index: aksi
+#0 D:\xampp7\private_html\skpci\app\Views\admin_riwayat.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 71, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(104): view('admin_riwayat', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:29:37 --> Undefined variable: aksi
+#0 D:\xampp7\private_html\skpci\app\Views\admin_riwayat.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 71, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(99): view('admin_riwayat', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:35:40 --> Undefined variable: aksi
+#0 D:\xampp7\private_html\skpci\app\Views\admin_riwayat.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 71, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(107): view('admin_riwayat', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 02:07:09 --> Undefined index: aksi
+#0 D:\xampp7\private_html\skpci\app\Views\admin_riwayat.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 110, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(114): view('admin_riwayat', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 02:20:52 --> Undefined index: aksi
+#0 D:\xampp7\private_html\skpci\app\Views\admin_riwayat.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 111, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(114): view('admin_riwayat', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 02:29:54 --> Undefined index: jabatan_kode
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 106, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-28 02:36:40 --> Undefined variable: aksi
+#0 D:\xampp7\private_html\skpci\app\Views\admin_riwayat.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 70, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(117): view('admin_riwayat', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

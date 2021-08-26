@@ -1,0 +1,62 @@
+CRITICAL - 2021-07-27 01:09:18 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-27 01:10:28 --> syntax error, unexpected 'btn' (T_STRING)
+#0 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-27 01:11:05 --> Call to undefined function App\Controllers\my_crypt()
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->listpegawai()
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-27 01:14:34 --> Too few arguments to function App\Controllers\ControllerHome::LihatRiwayatKGB(), 0 passed in D:\xampp7\htdocs\elayanan\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB()
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-27 01:15:22 --> Too few arguments to function App\Controllers\ControllerHome::LihatRiwayatKGB(), 0 passed in D:\xampp7\htdocs\elayanan\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB()
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-27 01:19:43 --> Too few arguments to function App\Controllers\ControllerHome::LihatRiwayatKGB(), 0 passed in D:\xampp7\htdocs\elayanan\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB()
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-27 01:20:30 --> Class 'App\Models\ModelRiwayatKGB' not found
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('dTFFeUhQZTdESzl...')
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-07-27 01:22:30 --> Error connecting to the database: Unknown database 'sim_elayanandb'
+CRITICAL - 2021-07-27 01:22:30 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp7\htdocs\elayanan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp7\htdocs\elayanan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(41): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('dTFFeUhQZTdESzl...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

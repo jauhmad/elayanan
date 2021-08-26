@@ -1,0 +1,90 @@
+CRITICAL - 2021-07-26 20:03:43 --> Undefined variable: biodata
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewBiodata.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 180, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewBiodata', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(9): view('ViewBiodata')
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-26 20:30:43 --> Undefined variable: nama
+#0 D:\xampp7\htdocs\elayanan\app\Views\tataletak\admin\tataletak_admin-tabler.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 61, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewBiodata', Array, true)
+#5 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(9): view('ViewBiodata')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-26 20:33:56 --> Undefined variable: jabatan
+#0 D:\xampp7\htdocs\elayanan\app\Views\tataletak\admin\tataletak_admin-tabler.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 62, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewBiodata', Array, true)
+#5 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(9): view('ViewBiodata')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-26 22:20:54 --> Invalid file: ViewListPegawai.php
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewListPegawai...')
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewListPegawai', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(9): view('ViewListPegawai')
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-26 22:24:57 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 19, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->listpegawai()
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-26 22:56:40 --> Undefined variable: news
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 26, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->listpegawai()
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-26 23:05:11 --> syntax error, unexpected '}'
+#0 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-26 23:05:13 --> syntax error, unexpected '}'
+#0 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-26 23:10:42 --> Undefined variable: page_title
+#0 D:\xampp7\htdocs\elayanan\app\Views\tataletak\admin\tataletak_admin-tabler.php(367): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 367, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewListPegawai', Array, true)
+#5 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(24): view('ViewListPegawai', Array)
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->listpegawai()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#10 {main}

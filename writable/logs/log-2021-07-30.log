@@ -1,0 +1,93 @@
+ERROR - 2021-07-30 00:05:00 --> Error connecting to the database: Unknown database 'sim_elayanandb'
+CRITICAL - 2021-07-30 00:05:00 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp7\htdocs\elayanan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp7\htdocs\elayanan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(79): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-30 00:06:11 --> mysqli_sql_exception: Table 'sim_elayanandb.riwayat_kgb' doesn't exist in D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(79): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-30 00:06:11 --> Table 'sim_elayanandb.riwayat_kgb' doesn't exist
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(79): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-30 00:20:01 --> Invalid file: ViewRiwayatKGB.php
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewRiwayatKGB....')
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(96): view('ViewRiwayatKGB', Array)
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 00:21:12 --> Undefined variable: active
+#0 D:\xampp7\htdocs\elayanan\app\Views\tataletak\admin\tataletak_admin-tabler.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 84, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#5 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(96): view('ViewRiwayatKGB', Array)
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-30 01:19:08 --> Undefined variable: nama
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewRiwayatKGB.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 17, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(102): view('ViewRiwayatKGB', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-30 01:22:19 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewRiwayatKGB.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 18, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(106): view('ViewRiwayatKGB', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-30 01:22:31 --> Undefined variable: nip
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewRiwayatKGB.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 21, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(106): view('ViewRiwayatKGB', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('SUNBc2U1UVBCbmd...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

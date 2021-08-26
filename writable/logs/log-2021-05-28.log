@@ -1,0 +1,117 @@
+CRITICAL - 2021-05-28 02:32:24 --> Undefined index: id_tabel
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 108, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-28 02:32:25 --> Undefined index: id_tabel
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 108, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->riwayatJbt()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-28 02:41:40 --> Call to undefined function App\Controllers\lihatTargetSKP()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-28 02:45:08 --> mysqli_sql_exception: Unknown column 'id_table' in 'where clause' in D:\xampp7\private_html\skpci\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\private_html\skpci\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ri...')
+#1 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ri...')
+#2 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ri...')
+#3 D:\xampp7\private_html\skpci\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ri...', Array, false)
+#4 D:\xampp7\private_html\skpci\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp7\private_html\skpci\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(284): CodeIgniter\BaseModel->delete(Array)
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->hapusTargetSKP('1')
+#8 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#9 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 02:45:08 --> Unknown column 'id_table' in 'where clause'
+#0 D:\xampp7\private_html\skpci\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ri...')
+#1 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ri...')
+#2 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ri...')
+#3 D:\xampp7\private_html\skpci\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ri...', Array, false)
+#4 D:\xampp7\private_html\skpci\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp7\private_html\skpci\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(284): CodeIgniter\BaseModel->delete(Array)
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->hapusTargetSKP('1')
+#8 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#9 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 02:47:33 --> Call to undefined function App\Controllers\lihatTargetSKP()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-28 02:50:47 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\priva...')
+#1 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-28 03:09:11 --> Undefined variable: id
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 276, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-28 03:09:58 --> mysqli_sql_exception: Duplicate entry '1977112120060410053160001000001PKOMPY2021' for key 'id_2' in D:\xampp7\private_html\skpci\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\private_html\skpci\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ri...')
+#1 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ri...')
+#2 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ri...')
+#3 D:\xampp7\private_html\skpci\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ri...', Array, false)
+#4 D:\xampp7\private_html\skpci\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\private_html\skpci\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\private_html\skpci\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(271): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#9 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#10 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-28 03:09:58 --> Duplicate entry '1977112120060410053160001000001PKOMPY2021' for key 'id_2'
+#0 D:\xampp7\private_html\skpci\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ri...')
+#1 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ri...')
+#2 D:\xampp7\private_html\skpci\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ri...')
+#3 D:\xampp7\private_html\skpci\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ri...', Array, false)
+#4 D:\xampp7\private_html\skpci\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp7\private_html\skpci\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp7\private_html\skpci\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(271): CodeIgniter\Model->insert(Array)
+#8 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#9 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#10 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-28 03:10:30 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(276): redirect('/target/TjhIbDg...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 03:19:04 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(284): redirect('/target/TjhIbDg...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->hapusTargetSKP('TjhIbDgxRmpoRU5...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}

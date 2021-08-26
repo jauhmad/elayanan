@@ -1,0 +1,66 @@
+CRITICAL - 2021-05-27 21:57:21 --> Undefined variable: link_kembali
+#0 D:\xampp7\private_html\skpci\app\Views\admin_show_biodata.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 22, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(49): view('admin_show_biod...', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 21:59:02 --> Undefined variable: id
+#0 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 49, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->index()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 22:55:14 --> syntax error, unexpected '" onclick="' (T_CONSTANT_ENCAPSED_STRING)
+#0 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\priva...')
+#1 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 23:27:51 --> syntax error, unexpected ')'
+#0 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\priva...')
+#1 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 23:30:03 --> There is no data to insert.
+#0 D:\xampp7\private_html\skpci\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\xampp7\private_html\skpci\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(271): CodeIgniter\Model->insert(Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 23:39:33 --> Allowed fields must be specified for model: App\Models\ModelRiwayat
+#0 D:\xampp7\private_html\skpci\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mode...')
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(271): CodeIgniter\Model->insert(Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 23:41:37 -->  route cannot be found while reverse-routing.
+#0 D:\xampp7\private_html\skpci\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp7\private_html\skpci\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp7\private_html\skpci\app\Controllers\skpAdmin.php(274): redirect('/target/1977112...')
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\skpAdmin->buatTargetSKP('197711212006041...', '3160001000001PK...', '2021')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\skpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}

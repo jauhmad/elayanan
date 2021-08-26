@@ -1,0 +1,9 @@
+CRITICAL - 2021-07-29 01:22:40 --> Invalid file: ViewListPegawai.php
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewListPegawai...')
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewListPegawai', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(45): view('ViewListPegawai', Array)
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->list_peg_admin_kgb()
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}

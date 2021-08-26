@@ -1,0 +1,36 @@
+CRITICAL - 2021-06-09 23:54:17 --> Invalid file: admin_show_biodata.php
+#0 D:\xampp7\private_html\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_show_biod...')
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_show_biod...', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(51): view('admin_show_biod...', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->index()
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-09 23:54:54 --> Invalid file: admin_riwayat.php
+#0 D:\xampp7\private_html\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_riwayat.p...')
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_riwayat', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(166): view('admin_riwayat', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->riwayatJbt()
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-09 23:55:26 --> Invalid file: admin_target.php
+#0 D:\xampp7\private_html\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_target.ph...')
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_target', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(189): view('admin_target', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->lihatTargetSKP('SzB2WmgzTG5kdDl...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-09 23:55:52 --> Invalid file: admin_tambah_target.php
+#0 D:\xampp7\private_html\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_tambah_ta...')
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('admin_tambah_ta...', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(290): view('admin_tambah_ta...', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->tambahKTJ('SzB2WmgzTG5kdDl...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}

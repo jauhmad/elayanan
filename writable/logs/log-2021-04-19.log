@@ -1,0 +1,12 @@
+CRITICAL - 2021-04-19 23:47:12 --> Class 'Firebase\JWT\JWT' not found
+#0 /home/kulonpro/public_html/emailpns/system/CodeIgniter.php(936): App\Controllers\Login->prosesToken('eyJ0eXAiOiJKV1Q...')
+#1 /home/kulonpro/public_html/emailpns/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/kulonpro/public_html/emailpns/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/kulonpro/public_html/emailpns/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-19 23:47:28 --> Class 'Firebase\JWT\JWT' not found
+#0 /home/kulonpro/public_html/emailpns/system/CodeIgniter.php(936): App\Controllers\Login->prosesToken('eyJ0eXAiOiJKV1Q...')
+#1 /home/kulonpro/public_html/emailpns/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/kulonpro/public_html/emailpns/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/kulonpro/public_html/emailpns/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

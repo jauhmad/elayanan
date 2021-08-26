@@ -1,0 +1,11 @@
+CRITICAL - 2021-06-18 03:14:07 --> Undefined variable: tambahan
+#0 D:\xampp7\private_html\skpci\app\Views\ViewPengukuran.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 170, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPengukuran', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\ControllerPengukuran.php(81): view('ViewPengukuran', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPengukuran->lihat('WHVwYml4ODZMYTZ...')
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPengukuran))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

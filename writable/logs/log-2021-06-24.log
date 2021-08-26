@@ -1,0 +1,77 @@
+CRITICAL - 2021-06-24 19:35:08 --> syntax error, unexpected 'sini' (T_STRING)
+#0 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewBawahan', Array, true)
+#2 D:\xampp7\htdocs\skpci\app\Controllers\ControllerBawahan.php(25): view('ViewBawahan', Array)
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerBawahan->index('pengukuran')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerBawahan))
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-24 19:47:05 --> Undefined index: target_1
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTarget.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 135, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTarget', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(72): view('ViewTarget', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('dmVvbm5PdFdkZFJ...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-24 21:39:42 --> Class 'App\Controllers\Perilaku' not found
+#0 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('dmVvbm5PdFdkZFJ...')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-24 21:40:35 --> Undefined index: nm_perilaku
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('dmVvbm5PdFdkZFJ...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-24 21:40:58 --> Undefined variable: link_kembali
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(41): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('dmVvbm5PdFdkZFJ...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-24 21:41:25 --> Undefined variable: content_pengukuran
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 152, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(42): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('dmVvbm5PdFdkZFJ...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-24 21:42:33 --> Undefined variable: link_setuju
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 122, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(42): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('dmVvbm5PdFdkZFJ...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-24 21:42:56 --> Undefined variable: id_riwayat
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 150, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(43): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('dmVvbm5PdFdkZFJ...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2021-08-02 23:09:49 --> Call to undefined function form_open()
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include()
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#3 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(106): view('ViewRiwayatKGB', Array)
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->LihatRiwayatKGB('WTArRVZ5bExYaVZ...')
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}

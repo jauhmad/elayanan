@@ -1,0 +1,124 @@
+CRITICAL - 2021-06-11 02:42:39 --> Undefined variable: news
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(302): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 302, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-11 02:42:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(324): CodeIgniter\Model->update('Vkg2OVlHcUFxcDk...', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 02:47:40 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(324): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 02:48:20 --> Undefined variable: id_riwayat
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(306): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 306, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-11 03:02:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(325): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:03:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(324): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:03:23 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(313): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:05:22 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(313): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:05:32 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(312): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:05:42 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(311): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:05:52 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(310): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:06:01 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(309): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 03:06:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in D:\xampp7\private_html\skpci\system\Model.php on line 350
+#0 D:\xampp7\private_html\skpci\system\Model.php(350): CodeIgniter\Database\BaseBuilder->set('target', Array, NULL)
+#1 D:\xampp7\private_html\skpci\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(308): CodeIgniter\Model->update('5', Array)
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->editKTJ('Vkg2OVlHcUFxcDk...')
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}

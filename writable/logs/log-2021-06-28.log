@@ -1,0 +1,234 @@
+CRITICAL - 2021-06-28 00:01:06 --> Undefined index: nm_perilaku
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahPerilaku.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 38, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPeril...', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(207): view('ViewTambahPeril...', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('RWlIWVl3dlVhNDh...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-28 00:01:33 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahPerilaku.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 38, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPeril...', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(207): view('ViewTambahPeril...', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('RWlIWVl3dlVhNDh...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-28 00:02:45 --> Class 'App\Models\ModelItemPerilaku' not found
+#0 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('RWlIWVl3dlVhNDh...')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-28 00:03:04 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTambahPerilaku.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 38, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTambahPeril...', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(207): view('ViewTambahPeril...', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('RWlIWVl3dlVhNDh...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-28 00:05:36 --> Undefined index: rwy
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 202, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('RWlIWVl3dlVhNDh...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-28 00:05:38 --> Undefined index: rwy
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 202, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('RWlIWVl3dlVhNDh...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-28 02:21:49 --> Undefined index: rwy
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 202, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('ZDA5bTJSbWlxb2t...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-28 02:43:50 --> Call to undefined function App\Controllers\getPost()
+#0 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('ZDA5bTJSbWlxb2t...')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-28 02:54:57 --> Array to string conversion
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 179, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('ZDA5bTJSbWlxb2t...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-28 02:56:33 --> Undefined property: App\Controllers\ControllerPerilaku::$input
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 176, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('ZDA5bTJSbWlxb2t...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-28 02:56:56 --> Undefined property: App\Controllers\ControllerPerilaku::$input
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 179, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('ZDA5bTJSbWlxb2t...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-28 03:00:09 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:10 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:11 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:11 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:12 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:13 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:16 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:18 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:31 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:00:47 --> syntax error, unexpected ')'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 03:48:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 21:51:59 --> syntax error, unexpected 'sini' (T_STRING)
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 22:00:10 --> There is no data to update.
+#0 D:\xampp7\htdocs\skpci\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp7\htdocs\skpci\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp7\htdocs\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(96): CodeIgniter\Model->update(Array)
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->edit('ZDA5bTJSbWlxb2t...')
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 22:01:40 --> There is no data to update.
+#0 D:\xampp7\htdocs\skpci\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp7\htdocs\skpci\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp7\htdocs\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(96): CodeIgniter\Model->update(Array)
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->edit('ZDA5bTJSbWlxb2t...')
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-28 22:34:56 --> Array to string conversion
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 49, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('ZDA5bTJSbWlxb2t...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}

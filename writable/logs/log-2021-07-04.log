@@ -1,0 +1,158 @@
+CRITICAL - 2021-07-04 22:12:19 --> syntax error, unexpected 'cetak' (T_STRING)
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-04 22:12:40 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTarget.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 49, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTarget', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(80): view('ViewTarget', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('RmxiS3ZZNEwrQjl...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 22:22:45 --> Undefined index: nama_atasan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTarget.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 48, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTarget', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(80): view('ViewTarget', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('RmxiS3ZZNEwrQjl...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 22:28:42 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 33, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('RmxiS3ZZNEwrQjl...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 22:31:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(32): App\Models\ModelPegawai->get_nama('198102071999122...')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('RmxiS3ZZNEwrQjl...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 22:31:50 --> Undefined index: nama
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTarget.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 49, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTarget', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(85): view('ViewTarget', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('RmxiS3ZZNEwrQjl...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 22:35:10 --> Undefined index: nama_atasan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTargetCetak.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 10, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTargetCetak', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(288): view('ViewTargetCetak', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->cetak('RmxiS3ZZNEwrQjl...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 22:37:17 --> Undefined index: nama_atasan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewTargetCetak.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTargetCetak', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(294): view('ViewTargetCetak', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->cetak('RmxiS3ZZNEwrQjl...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-04 22:41:58 --> Call to undefined method App\Models\ModelPegawai::num_rows
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(199): CodeIgniter\Model->__call('num_rows', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 22:45:36 --> Call to undefined method App\Models\ModelPegawai::num_rows
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(199): CodeIgniter\Model->__call('num_rows', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 22:53:58 --> Call to undefined method App\Models\ModelPegawai::num_rows
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(201): CodeIgniter\Model->__call('num_rows', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:18:22 --> Call to undefined method App\Models\ModelPegawai::num_rows
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(201): CodeIgniter\Model->__call('num_rows', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:20:37 --> Call to a member function num_rows() on array
+#0 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-04 23:22:12 --> Call to undefined method App\Models\ModelPegawai::num_rows
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(200): CodeIgniter\Model->__call('num_rows', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:25:24 --> Call to undefined method App\Models\ModelPegawai::getNumRows
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(200): CodeIgniter\Model->__call('getNumRows', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:48:33 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 36, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('UVVmdWFXUHhIQXV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:51:15 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 39, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->lihat('UVVmdWFXUHhIQXV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:54:35 --> Call to undefined method App\Models\ModelPegawai::count
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(205): CodeIgniter\Model->__call('count', Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-04 23:56:56 --> There is no primary key defined when trying to make insert.
+#0 D:\xampp7\htdocs\skpci\system\Model.php(267): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 D:\xampp7\htdocs\skpci\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 D:\xampp7\htdocs\skpci\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\xampp7\htdocs\skpci\app\Controllers\ControllerTarget.php(207): CodeIgniter\Model->insert(Array)
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerTarget->buat('198601212006042...', '3160004000003X0...', '2021')
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTarget))
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}

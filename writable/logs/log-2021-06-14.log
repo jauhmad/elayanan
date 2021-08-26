@@ -1,0 +1,150 @@
+CRITICAL - 2021-06-14 20:10:08 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::tgl_format_itl()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 20:18:17 --> syntax error, unexpected 'var_dump' (T_STRING)
+#0 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\priva...')
+#1 D:\xampp7\private_html\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 20:22:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::tgl_format_itl()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 20:23:19 --> Call to undefined function App\Controllers\getPost()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 20:24:01 --> Call to undefined function App\Controllers\getPost()
+#0 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 20:26:39 --> There is no data to update.
+#0 D:\xampp7\private_html\skpci\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(420): CodeIgniter\Model->update('12', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 20:30:33 --> There is no data to update.
+#0 D:\xampp7\private_html\skpci\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(420): CodeIgniter\Model->update('12', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 20:32:49 --> There is no data to update.
+#0 D:\xampp7\private_html\skpci\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(420): CodeIgniter\Model->update('12', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 20:35:04 --> There is no data to update.
+#0 D:\xampp7\private_html\skpci\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp7\private_html\skpci\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(420): CodeIgniter\Model->update('12', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->setujuTargetSKP('TDRmZEZPZnNsdE4...')
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 20:54:51 --> Undefined variable: link_tambah
+#0 D:\xampp7\private_html\skpci\app\Views\ViewTarget.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 36, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTarget', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(194): view('ViewTarget', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->lihatTargetSKP('TDRmZEZPZnNsdE4...')
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-14 20:55:21 --> Undefined variable: link_tambah
+#0 D:\xampp7\private_html\skpci\app\Views\ViewTarget.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 36, Array)
+#1 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#2 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewTarget', Array, true)
+#4 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(198): view('ViewTarget', Array)
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->lihatTargetSKP('TDRmZEZPZnNsdE4...')
+#6 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#7 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-14 21:40:29 --> Invalid file: ViewPengukuran.php
+#0 D:\xampp7\private_html\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewPengukuran....')
+#1 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPengukuran', Array, true)
+#2 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(278): view('ViewPengukuran', Array)
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#4 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#5 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 21:45:32 --> Undefined variable: id_riwayat
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 172, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:29:06 --> Undefined index: tgl_approve_awal
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 266, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:29:44 --> Undefined index: tgl_approve_awal
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 266, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:29:59 --> Undefined index: tgl_approve_awal
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\priva...', 266, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:35:42 --> Undefined variable: tbl
+#0 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\priva...', 289, Array)
+#1 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#2 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#3 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:58:26 --> Call to undefined function form_open()
+#0 D:\xampp7\private_html\skpci\system\View\View.php(220): include()
+#1 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp7\private_html\skpci\system\View\View.php(468): CodeIgniter\View\View->render('tataletak/admin...', NULL, true)
+#3 D:\xampp7\private_html\skpci\app\Views\ViewRiwayat.php(38): CodeIgniter\View\View->include('tataletak/admin...')
+#4 D:\xampp7\private_html\skpci\system\View\View.php(220): include('D:\\xampp7\\priva...')
+#5 D:\xampp7\private_html\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp7\private_html\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayat', Array, true)
+#7 D:\xampp7\private_html\skpci\app\Controllers\ControllerSkpAdmin.php(315): view('ViewRiwayat', Array)
+#8 D:\xampp7\private_html\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerSkpAdmin->pengukuranSKP()
+#9 D:\xampp7\private_html\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerSkpAdmin))
+#10 D:\xampp7\private_html\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}

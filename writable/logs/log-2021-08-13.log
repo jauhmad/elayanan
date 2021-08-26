@@ -1,0 +1,27 @@
+ERROR - 2021-08-13 02:09:26 --> mysqli_sql_exception: Table 'sim_elayanandb.riwayat_kgb' doesn't exist in D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(229): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('bEtORVJkaXh6U0U...')
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-13 02:09:26 --> Table 'sim_elayanandb.riwayat_kgb' doesn't exist
+#0 D:\xampp7\htdocs\elayanan\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp7\htdocs\elayanan\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp7\htdocs\elayanan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp7\htdocs\elayanan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp7\htdocs\elayanan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(229): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('bEtORVJkaXh6U0U...')
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#9 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}

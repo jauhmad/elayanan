@@ -1,0 +1,179 @@
+CRITICAL - 2021-07-07 20:33:57 --> syntax error, unexpected 'cetak' (T_STRING)
+#0 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\skpci\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-07 20:40:03 --> Undefined variable: aksi
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPengukuran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 62, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPengukuran', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPengukuran.php(264): view('ViewPengukuran', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPengukuran->lihat('M2hxaGNHWWhKblV...', 'page')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPengukuran))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-07 21:06:08 --> Undefined variable: cekya
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPengukuran.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 241, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPengukuran->lihat('M2hxaGNHWWhKblV...', 'page')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPengukuran))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 21:06:33 --> Undefined variable: radio
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPengukuran.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 144, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPengukuran', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPengukuran.php(266): view('ViewPengukuran', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPengukuran->lihat('M2hxaGNHWWhKblV...', 'page')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPengukuran))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-07 21:08:22 --> syntax error, unexpected '?>'
+#0 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPengukuran', Array, true)
+#2 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPengukuran.php(266): view('ViewPengukuran', Array)
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPengukuran->lihat('M2hxaGNHWWhKblV...', 'page')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPengukuran))
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-07 21:20:37 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 32, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 21:21:23 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 32, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 21:26:10 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 34, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 21:28:02 --> Undefined index: nama_atasan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 46, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(121): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-07 21:30:57 --> Undefined variable: nama_atasan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 46, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(121): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-07 21:31:35 --> Undefined index: jabatan_atasan
+#0 D:\xampp7\htdocs\skpci\app\Views\ViewPerilaku.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 66, Array)
+#1 D:\xampp7\htdocs\skpci\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\skpci\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilaku', Array, true)
+#4 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(134): view('ViewPerilaku', Array)
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...')
+#6 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#7 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-07 22:08:55 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 266, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 22:09:47 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 270, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 22:09:49 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 270, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 22:10:10 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 270, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 22:10:12 --> Undefined index: jenis_jabatan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 270, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 22:16:18 --> Undefined offset: 1
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 249, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->tambah('M2hxaGNHWWhKblV...')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 22:52:40 --> Class 'App\Controllers\ModelPangkat' not found
+#0 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...', 'cetak')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-07 22:53:02 --> Invalid file: ViewPerilakuCetak.php
+#0 D:\xampp7\htdocs\skpci\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewPerilakuCet...')
+#1 D:\xampp7\htdocs\skpci\system\Common.php(1217): CodeIgniter\View\View->render('ViewPerilakuCet...', Array, true)
+#2 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(144): view('ViewPerilakuCet...', Array)
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...', 'cetak')
+#4 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#5 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-07 22:59:26 --> Class 'App\Controllers\TCPDF' not found
+#0 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...', 'cetak')
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-07 23:40:48 --> Undefined variable: jabatan_atasan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 146, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...', 'cetak')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-07 23:42:18 --> Undefined variable: nama_atasan
+#0 D:\xampp7\htdocs\skpci\app\Controllers\ControllerPerilaku.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 149, Array)
+#1 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(936): App\Controllers\ControllerPerilaku->lihat('M2hxaGNHWWhKblV...', 'cetak')
+#2 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPerilaku))
+#3 D:\xampp7\htdocs\skpci\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\skpci\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}

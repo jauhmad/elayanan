@@ -1,0 +1,3 @@
+https://www.petanikode.com/codeigniter4-install/
+
+bootstrap jquery: https://www.petanikode.com/codeigniter4-view/

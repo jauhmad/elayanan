@@ -1,0 +1,17 @@
+CRITICAL - 2021-07-28 20:17:18 --> Undefined variable: url
+#0 D:\xampp7\htdocs\elayanan\app\Helpers\api_simasneg_helper.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 20, Array)
+#1 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(15): pegawaiPerSKPD(NULL, NULL)
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->listpegawai()
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 21:40:28 --> Invalid file: ViewHome.php
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ViewHome.php')
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewHome', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(13): view('ViewHome', Array)
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}

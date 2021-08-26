@@ -1,0 +1,398 @@
+CRITICAL - 2021-08-19 00:33:48 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 281, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('ek1FSUJuL3VUaWh...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 00:35:25 --> Undefined index: instansi_kode
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 281, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('ek1FSUJuL3VUaWh...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 00:35:26 --> Undefined index: instansi_kode
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 281, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('ek1FSUJuL3VUaWh...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 00:35:37 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 281, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('ek1FSUJuL3VUaWh...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 00:53:11 --> Undefined offset: 0
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp7\\htdoc...', 236, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 00:56:37 --> Undefined variable: no_surat
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 26, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:01:56 --> syntax error, unexpected ';'
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-19 01:02:13 --> Undefined variable: tgl_surat
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 36, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:02:47 --> Undefined variable: nama
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 49, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:03:26 --> Undefined variable: nip
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 56, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:03:53 --> Undefined variable: golru
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 64, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:04:22 --> Undefined variable: rjabatan
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 73, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:04:47 --> Undefined variable: rjabatan
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 74, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:05:04 --> Undefined variable: no_spangkat
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 87, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:05:39 --> Undefined variable: tgl_spangkat
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 94, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:06:07 --> Undefined variable: tmt_spangkat
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 102, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:06:26 --> Undefined variable: mk_spangkat_tahun
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 109, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:07:17 --> Undefined variable: mk_spangkat_bulan
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:07:47 --> Undefined variable: gapok_lama
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 123, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:08:28 --> Undefined variable: mk_tahun_baru
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 139, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:09:10 --> Undefined variable: mk_bulan_baru
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 147, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:09:34 --> Undefined variable: golru_baru
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 155, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:09:53 --> Undefined variable: tmt_baru
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 169, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:10:24 --> Undefined variable: kgb_berikut
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 176, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:10:51 --> Undefined variable: gapok_baru
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 184, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:11:23 --> Undefined variable: active
+#0 D:\xampp7\htdocs\elayanan\app\Views\tataletak\admin\tataletak_admin-tabler.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 84, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#5 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(216): view('ViewFormRiwayat...', Array)
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#8 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-19 01:17:24 --> Undefined variable: instansi
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 36, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(222): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 01:30:54 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#2 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(165): view('ViewRiwayatKGB', Array)
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->LihatRiwayatKGB('dU9JM21MT2FaM3V...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-19 01:33:43 --> Undefined variable: aksi
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewFormRiwayatKGB.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 41, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewFormRiwayat...', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(360): view('ViewFormRiwayat...', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('T1ZiWHQ0ZHI5RTJ...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 20:19:24 --> Undefined variable: nip_kepala
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewRiwayatKGB.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 126, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(165): view('ViewRiwayatKGB', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->LihatRiwayatKGB('bDdweWVhSXZDK1V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 20:23:02 --> Array to string conversion
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 251, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('bDdweWVhSXZDK1V...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 20:23:13 --> Array to string conversion
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 251, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('bDdweWVhSXZDK1V...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 20:25:29 --> Illegal string offset 'data'
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp7\\htdoc...', 252, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->TambahRiwayatKGB('bDdweWVhSXZDK1V...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 20:33:19 --> syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';'
+#0 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\elayanan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-19 20:35:11 --> Undefined variable: ide
+#0 D:\xampp7\htdocs\elayanan\app\Views\ViewRiwayatKGB.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 85, Array)
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewRiwayatKGB', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(164): view('ViewRiwayatKGB', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->LihatRiwayatKGB('dU9JM21MT2FaM3V...')
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 20:39:42 --> Undefined variable: nip_kepala
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 354, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->EditRiwayatKGB('T1ZiWHQ0ZHI5RTJ...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 21:17:01 --> Class 'App\Controllers\ModelPegawai' not found
+#0 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->Cetak('RzlWTEc1Q2VyZnF...')
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-19 21:18:08 --> Undefined index: tahun
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGB.php(448): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 448, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGB->Cetak('RzlWTEc1Q2VyZnF...')
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGB))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 21:53:34 --> Invalid argument supplied for foreach()
+#0 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerKGBAdmin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp7\\htdoc...', 74, Array)
+#1 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerKGBAdmin->list_peg_admin_kgb()
+#2 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerKGBAdmin))
+#3 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 22:22:50 --> Call to undefined function mcrypt()
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include()
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewHome', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(12): view('ViewHome', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 22:23:17 --> Call to undefined function my_crypt()
+#0 D:\xampp7\htdocs\elayanan\system\View\View.php(220): include()
+#1 D:\xampp7\htdocs\elayanan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp7\htdocs\elayanan\system\View\View.php(236): CodeIgniter\View\View->render('tataletak/admin...', Array, true)
+#3 D:\xampp7\htdocs\elayanan\system\Common.php(1217): CodeIgniter\View\View->render('ViewHome', Array, true)
+#4 D:\xampp7\htdocs\elayanan\app\Controllers\ControllerHome.php(12): view('ViewHome', Array)
+#5 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(936): App\Controllers\ControllerHome->index()
+#6 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerHome))
+#7 D:\xampp7\htdocs\elayanan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\elayanan\public\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
